@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/main.js" defer></script>
 </head>
-<body class="antialiased relative" id="home">
+<body class="antialiased" id="home" style="display: block !important;">
+    <main class="relative" style="display: flex !important; flex-direction: column !important; width: 100% !important; min-height: 100vh;">
     <div class="bg-glow"></div>
 
     <!-- Navbar -->
@@ -85,7 +86,9 @@
                 </div>
             </div>
         </div>
-    </sectio    <!-- About Section -->
+    </section>
+
+    <!-- About Section -->
     <section id="about" class="py-20 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -304,21 +307,42 @@
                         <i class="fa-solid fa-user-shield text-xl text-primary"></i>
                     </div>
                     <h4 class="font-semibold mb-2">Salesforce Administrator</h4>
-                    <span class="text-xs py-1 px-3 rounded-full bg-yellow-500/10 text-yellow-400 border border-yellow-500/20">In Progress</span>
+                    <span class="text-xs py-1 px-3 rounded-full bg-green-500/10 text-green-400 border border-green-500/20">Hands-on Experience</span>
+                    <div class="cert-progress-track">
+                        <div class="cert-progress-fill" style="--progress: 92%;" data-progress="92"></div>
+                    </div>
+                    <div class="cert-progress-label">
+                        <span class="text-gray-500">Progress</span>
+                        <span class="cert-pct">92%</span>
+                    </div>
                 </div>
                 <div class="glass-card p-6 text-center group">
                     <div class="w-14 h-14 rounded-full bg-secondary/10 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                         <i class="fa-solid fa-laptop-code text-xl text-secondary"></i>
                     </div>
                     <h4 class="font-semibold mb-2">Platform Developer I</h4>
-                    <span class="text-xs py-1 px-3 rounded-full bg-yellow-500/10 text-yellow-400 border border-yellow-500/20">In Progress</span>
+                    <span class="text-xs py-1 px-3 rounded-full bg-green-500/10 text-green-400 border border-green-500/20">Hands-on Experience</span>
+                    <div class="cert-progress-track">
+                        <div class="cert-progress-fill" style="--progress: 88%;" data-progress="88"></div>
+                    </div>
+                    <div class="cert-progress-label">
+                        <span class="text-gray-500">Progress</span>
+                        <span class="cert-pct">88%</span>
+                    </div>
                 </div>
                 <div class="glass-card p-6 text-center group">
                     <div class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                         <i class="fa-solid fa-robot text-xl text-primary"></i>
                     </div>
                     <h4 class="font-semibold mb-2">Salesforce AI Associate</h4>
-                    <span class="text-xs py-1 px-3 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/20">Preparing</span>
+                    <span class="text-xs py-1 px-3 rounded-full bg-green-500/10 text-green-400 border border-green-500/20">Hands-on Experience</span>
+                    <div class="cert-progress-track">
+                        <div class="cert-progress-fill" style="--progress: 95%;" data-progress="95"></div>
+                    </div>
+                    <div class="cert-progress-label">
+                        <span class="text-gray-500">Progress</span>
+                        <span class="cert-pct">95%</span>
+                    </div>
                 </div>
                 <div class="glass-card p-6 text-center group">
                     <div class="w-14 h-14 rounded-full bg-secondary/10 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
@@ -326,6 +350,13 @@
                     </div>
                     <h4 class="font-semibold mb-2">Agentforce</h4>
                     <span class="text-xs py-1 px-3 rounded-full bg-green-500/10 text-green-400 border border-green-500/20">Hands-on Experience</span>
+                    <div class="cert-progress-track">
+                        <div class="cert-progress-fill" style="--progress: 90%;" data-progress="90"></div>
+                    </div>
+                    <div class="cert-progress-label">
+                        <span class="text-gray-500">Progress</span>
+                        <span class="cert-pct">90%</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -338,6 +369,32 @@
                 <!-- Projects -->
                 <div>
                     <h2 class="text-3xl md:text-4xl font-bold mb-10"><span class="gradient-text">Projects</span> & Experience</h2>
+
+                    <!-- Featured Product: VertexDB -->
+                    <div class="glass-card p-6 mb-10 relative overflow-hidden group" style="border-color: rgba(79,140,255,0.25);">
+                        <div class="absolute top-0 right-0 bg-gradient-to-l from-primary/20 to-transparent w-1/2 h-full pointer-events-none"></div>
+                        <div class="relative z-10">
+                            <div class="flex items-center gap-3 mb-3">
+                                <span class="text-xs py-1 px-3 rounded-full bg-primary/15 text-primary border border-primary/25 font-semibold tracking-wider uppercase">🚀 My Product</span>
+                                <span class="text-xs py-1 px-3 rounded-full bg-green-500/10 text-green-400 border border-green-500/20">Live</span>
+                            </div>
+                            <h4 class="text-2xl font-bold mb-2">VertexDB</h4>
+                            <p class="text-gray-300 text-sm mb-1 font-medium">Workspace for goals, notes, and daily execution.</p>
+                            <p class="text-gray-500 text-sm mb-4">A personal command center for Salesforce prep, study planning, calendars, tasks, notes, and progress tracking. Built for focus, not distractions.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="text-xs py-1 px-2 rounded-md bg-white/5 border border-white/10">Study Flow</span>
+                                <span class="text-xs py-1 px-2 rounded-md bg-white/5 border border-white/10">Personal Sync</span>
+                                <span class="text-xs py-1 px-2 rounded-md bg-white/5 border border-white/10">Privacy-first</span>
+                                <span class="text-xs py-1 px-2 rounded-md bg-white/5 border border-white/10">Built for Focus</span>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <a href="https://tomcodex-academy.web.app/#overview" target="_blank" class="btn-gradient text-sm !py-2 !px-5">
+                                    Visit VertexDB <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i>
+                                </a>
+                                <span class="text-xs text-gray-500">A product of Tomcodex Pvt. Ltd.</span>
+                            </div>
+                        </div>
+                    </div>
                     
                     <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-white/10 before:to-transparent hidden md:block"></div>
                     
@@ -419,11 +476,11 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
                                 <label class="block text-sm font-medium text-gray-400 mb-2">Name</label>
-                                <input type="text" class="input-glass" placeholder="John Doe" required>
+                                <input type="text" class="input-glass" placeholder="Tomcodex" required>
                             </div>
                             <div>
                                 <label class="block text-sm font-medium text-gray-400 mb-2">Email</label>
-                                <input type="email" class="input-glass" placeholder="john@example.com" required>
+                                <input type="email" class="input-glass" placeholder="tomcodex@example.com" required>
                             </div>
                         </div>
                         <div>
@@ -491,6 +548,6 @@
             </p>
         </div>
     </footer>
-
+    </main>
 </body>
 </html>
