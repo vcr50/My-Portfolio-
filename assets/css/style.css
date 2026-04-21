@@ -34,9 +34,17 @@ main > * {
 }
 
 .gradient-text {
-    background: linear-gradient(135deg, #4F8CFF 0%, #8B5CF6 100%);
+    background: linear-gradient(135deg, #4F8CFF, #8B5CF6, #4F8CFF, #8B5CF6);
+    background-size: 300% 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: gradient-shift 8s ease-in-out infinite;
+}
+
+@keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 .floating-badge {

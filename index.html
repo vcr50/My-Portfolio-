@@ -23,7 +23,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
                 <div class="flex-shrink-0">
-                    <a href="#home" class="text-2xl font-bold gradient-text tracking-tight">Vijay.R</a>
+                    <a href="#home" class="text-lg md:text-2xl font-bold gradient-text tracking-tight">VIJAY RADHAKRISHNAN</a>
                 </div>
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-6">
@@ -54,7 +54,7 @@
                 </h1>
                 
                 <p class="text-xl md:text-2xl text-gray-400 mb-10 font-light">
-                    Salesforce Developer <span class="text-primary mx-2">•</span> Apex & LWC <span class="text-secondary mx-2">•</span> AI-Focused CRM Developer
+                    Salesforce Developer <span class="text-primary mx-2">•</span> AI Builder <span class="text-secondary mx-2">•</span> Prompt Engineer
                 </p>
                 
                 <!-- Floating Badges Container -->
@@ -63,16 +63,16 @@
                         <i class="fa-solid fa-cloud text-primary"></i> Agentforce
                     </div>
                     <div class="floating-badge animate-float" style="animation-delay: 0.5s;">
-                        <i class="fa-solid fa-wand-magic-sparkles text-secondary"></i> Prompt Builder
+                        <i class="fa-solid fa-code text-secondary"></i> Apex Developer
                     </div>
                     <div class="floating-badge animate-float" style="animation-delay: 1s;">
-                        <i class="fa-solid fa-robot text-primary"></i> AI Associate
+                        <i class="fa-solid fa-wand-magic-sparkles text-primary"></i> Prompt Builder
                     </div>
                     <div class="floating-badge animate-float" style="animation-delay: 1.5s;">
-                        <i class="fa-solid fa-comment-dots text-secondary"></i> ChatGPT
+                        <i class="fa-solid fa-gears text-secondary"></i> Flow Builder
                     </div>
                     <div class="floating-badge animate-float" style="animation-delay: 2s;">
-                        <i class="fa-brands fa-css3-alt text-primary"></i> Tailwind CSS
+                        <i class="fa-brands fa-salesforce text-primary"></i> LWC
                     </div>
                 </div>
                 
@@ -202,16 +202,28 @@
         </div>
     </section>
 
-    <!-- Technical Skills Section -->
+    <!-- Skills & Expertise Section -->
     <section id="skills" class="py-20 relative">
         <div class="bg-glow-right"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">Technical <span class="gradient-text">Skills</span></h2>
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Skills & <span class="gradient-text">Expertise</span></h2>
                 <div class="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
             </div>
+
+            <!-- Premium Tab Buttons -->
+            <div class="flex justify-center mb-12 relative z-20">
+                <div class="inline-flex items-center p-1.5 rounded-2xl bg-gray-900/60 backdrop-blur-md border border-white/5 shadow-2xl">
+                    <button id="btn-tech-skills" class="relative px-6 md:px-8 py-3 rounded-xl text-sm md:text-base font-semibold transition-all duration-300 text-white bg-white/10 shadow-lg border border-white/10 flex items-center gap-2">
+                        <i class="fa-solid fa-code text-primary"></i> Technical
+                    </button>
+                    <button id="btn-ai-skills" class="relative px-6 md:px-8 py-3 rounded-xl text-sm md:text-base font-semibold transition-all duration-300 text-gray-400 hover:text-gray-200 border border-transparent flex items-center gap-2">
+                        <i class="fa-solid fa-brain text-secondary"></i> AI & Modern
+                    </button>
+                </div>
+            </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div id="content-tech-skills" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 transition-opacity duration-300" style="opacity: 1;">
                 <!-- Salesforce Development -->
                 <div class="glass-card p-6">
                     <div class="w-12 h-12 rounded-lg bg-primary/20 flex items-center justify-center mb-6 text-primary text-2xl">
@@ -276,17 +288,84 @@
                         <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Salesforce CLI</li>
                     </ul>
                 </div>
+            </div>
 
-                <!-- AI & Generative -->
+            <div id="content-ai-skills" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 transition-opacity duration-300 hidden" style="opacity: 0;">
+                <!-- Generative AI -->
+                <div class="glass-card p-6">
+                    <div class="w-12 h-12 rounded-lg bg-primary/20 flex items-center justify-center mb-6 text-primary text-2xl">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Generative AI</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> ChatGPT</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Gemini</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Claude</li>
+                    </ul>
+                </div>
+
+                <!-- Prompt Engineering -->
                 <div class="glass-card p-6">
                     <div class="w-12 h-12 rounded-lg bg-secondary/20 flex items-center justify-center mb-6 text-secondary text-2xl">
-                        <i class="fa-solid fa-brain"></i>
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4 text-white">AI & Generative</h3>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Prompt Engineering</h3>
                     <ul class="space-y-3 text-gray-400">
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> Agentforce</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> Prompt Engineering</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> ChatGPT / Gemini / Claude</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> Salesforce Prompt Builder</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> Prompt Design</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> AI Workflows</li>
+                    </ul>
+                </div>
+
+                <!-- Salesforce AI -->
+                <div class="glass-card p-6">
+                    <div class="w-12 h-12 rounded-lg bg-primary/20 flex items-center justify-center mb-6 text-primary text-2xl">
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Salesforce AI</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Einstein AI</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Agentforce</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> AI Associate</li>
+                    </ul>
+                </div>
+
+                <!-- AI Automation -->
+                <div class="glass-card p-6">
+                    <div class="w-12 h-12 rounded-lg bg-secondary/20 flex items-center justify-center mb-6 text-secondary text-2xl">
+                        <i class="fa-solid fa-gears"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-white">AI Automation</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> Flows</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> API Integration</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> Automation</li>
+                    </ul>
+                </div>
+
+                <!-- AI UI/UX Design -->
+                <div class="glass-card p-6">
+                    <div class="w-12 h-12 rounded-lg bg-primary/20 flex items-center justify-center mb-6 text-primary text-2xl">
+                        <i class="fa-solid fa-pen-nib"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-white">AI UI/UX Design</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Figma</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Tailwind CSS</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Wireframes</li>
+                    </ul>
+                </div>
+
+                <!-- Future Learning -->
+                <div class="glass-card p-6">
+                    <div class="w-12 h-12 rounded-lg bg-secondary/20 flex items-center justify-center mb-6 text-secondary text-2xl">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Future Learning</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> AI Agents</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> RAG</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> LangChain</li>
                     </ul>
                 </div>
             </div>
