@@ -1,57 +1,86 @@
-<h1 align="center">Hi 👋, I'm VIJAY</h1>
-<h3 align="center">A passionate Web developer from India</h3>
+# Vijay Radhakrishnan
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=vcr50&label=Profile%20views&color=0e75b6&style=flat" alt="vcr50" /> </p>
+**Salesforce Developer | Apex • LWC • Automation | AI-Focused CRM Developer**
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=vcr50" alt="vcr50" /></a> </p>
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-4F8CFF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://vjprofiles.pages.dev/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/vijay-radhakrishnan-0784931aa/)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail)](mailto:vcr0369@gmail.com)
+[![Trailblazer](https://img.shields.io/badge/Trailblazer-Profile-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white)](https://trailblazer.me/id/vcr50)
 
-<p align="left"> <a href="https://twitter.com/@vcr369" target="blank"><img src="https://img.shields.io/twitter/follow/@vcr369?logo=twitter&style=for-the-badge" alt="@vcr369" /></a> </p>
+---
 
-- 🔭 I’m currently working on **Book Bank management System**
+## Professional Summary
 
-- 🌱 I’m currently learning **Nodejs,React,Angular,Git**
+A disciplined and focused **Salesforce Developer** with a strong foundation in Apex, Lightning Web Components (LWC), and automation. Skilled in building scalable CRM solutions and continuously enhancing technical expertise.
 
-- 👨‍💻 All of my projects are available at [https://vjprofiles.pages.dev/](https://vjprofiles.pages.dev/)
+Possesses hands-on experience in full-stack and AI-driven development through **Agentforce**, with a strong interest in building intelligent and future-ready applications within the Salesforce ecosystem.
 
-- 💬 Ask me about **I am a Hustler**
+---
 
-- 📫 How to reach me **vcr0369@gmail.com**
+## My Journey
 
-- 📄 Know about my experiences [https://www.linkedin.com/in/vijay-radhakrishnan-0784931aa/](https://www.linkedin.com/in/vijay-radhakrishnan-0784931aa/)
+I completed my **B.Tech in Information Technology** and chose to specialize in Salesforce development with a clear long-term vision. Through consistent effort, structured learning, and disciplined practice, I developed strong knowledge in Apex, LWC, Flows, and core Salesforce concepts.
 
-- ⚡ Fun fact **I think i now only 40% of Programming Knowledge**
+My approach focuses on mastering fundamentals, applying concepts practically, and continuously evolving towards advanced topics such as integrations and AI-based solutions. I aim to grow into a **Salesforce Architect** and build impactful systems.
 
-### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://codepen.io/https://codepen.io/vcr50" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="https://codepen.io/vcr50" height="30" width="40" /></a>
-<a href="https://dev.to/https://dev.to/vcr50" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="https://dev.to/vcr50" height="30" width="40" /></a>
-<a href="https://twitter.com/@vcr369" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@vcr369" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/vijay-radhakrishnan-0784931aa/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/vijay-radhakrishnan-0784931aa/" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/https://stackoverflow.com/users/19117704/vijay" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="https://stackoverflow.com/users/19117704/vijay" height="30" width="40" /></a>
-<a href="https://codesandbox.com/https://codesandbox.io/u/vcr50" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="https://codesandbox.io/u/vcr50" height="30" width="40" /></a>
-<a href="https://kaggle.com/https://www.kaggle.com/itsvcr50" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="https://www.kaggle.com/itsvcr50" height="30" width="40" /></a>
-<a href="https://fb.com/https://www.facebook.com/vcr369" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/vcr369" height="30" width="40" /></a>
-<a href="https://instagram.com/https://www.instagram.com/thisisvcr/?hl=en" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/thisisvcr/?hl=en" height="30" width="40" /></a>
-<a href="https://dribbble.com/https://dribbble.com/vcr50" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/dribbble.svg" alt="https://dribbble.com/vcr50" height="30" width="40" /></a>
-<a href="https://hashnode.com/https://hashnode.com/@vcr50" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hashnode.svg" alt="https://hashnode.com/@vcr50" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/https://www.codechef.com/users/itsvcr50" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="https://www.codechef.com/users/itsvcr50" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/https://www.hackerrank.com/vijayrock104" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/vijayrock104" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/https://leetcode.com/vcr50/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/vcr50/" height="30" width="40" /></a>
-<a href="https://www.hackerearth.com/https://www.hackerearth.com/@vcr50" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="https://www.hackerearth.com/@vcr50" height="30" width="40" /></a>
-<a href="https://www.topcoder.com/members/https://platform.topcoder.com/profile/itsvcr50" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/topcoder.svg" alt="https://platform.topcoder.com/profile/itsvcr50" height="30" width="40" /></a>
-<a href="https://discord.gg/vcr50#8101" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="vcr50#8101" height="30" width="40" /></a>
-</p>
+## Technical Skills
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg" alt="django" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> </p>
+| Domain | Technologies |
+|---|---|
+| **Salesforce Development** | Apex, LWC, Flows & Process Automation, SOQL & SOSL, Data Modeling |
+| **Salesforce Platform** | Security & Sharing, Profiles, Roles, Permission Sets, Reports & Dashboards |
+| **Integration** | REST API Basics, External Integrations |
+| **Web Technologies** | HTML, CSS, JavaScript, React (Beginner) |
+| **Tools** | Git & GitHub, VS Code, Salesforce CLI |
+| **AI & Generative** | Agentforce, Prompt Engineering, ChatGPT, Gemini, Claude |
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=vcr50&show_icons=true&locale=en&layout=compact" alt="vcr50" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=vcr50&show_icons=true&locale=en" alt="vcr50" /></p>
+## Current Focus
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=vcr50&" alt="vcr50" /></p>
+- 🔹 Advanced Apex Development
+- 🔹 LWC Real-world Implementation
+- 🔹 API Integrations
+- 🔹 AI + Salesforce
+- 🔹 Full-Stack Development
 
+---
+
+## Certifications & Specialized Experience
+
+| Certification | Status |
+|---|---|
+| Salesforce Administrator | 🟡 In Progress |
+| Salesforce Platform Developer I | 🟡 In Progress |
+| Salesforce AI Associate | 🔵 Preparing |
+| Agentforce – Full-Stack & AI Development | 🟢 Hands-on Experience |
+
+---
+
+## Featured Projects
+
+- **[Diabetic Retinopathy Detection via Deep Learning](https://github.com/vcr50/FINAL-YEAR-PROJECT-UCEV23)**  
+  Uncertainty-aware robust detection using deep context knowledge transfer learning. Built with Python, PyTorch, and Jupyter.
+
+- **[News Tracker Platform (IBM Project)](https://github.com/vcr50/IBM-Project-22781-1659858111)**  
+  A user-friendly platform for staying informed with the latest news, developed using Python and Docker.
+
+---
+
+## Personal Statement
+
+> *"I am building a career with discipline, consistency, and a long-term vision."*
+
+---
+
+## Get in Touch
+
+- **Email:** [vcr0369@gmail.com](mailto:vcr0369@gmail.com)
+- **LinkedIn:** [Vijay Radhakrishnan](https://www.linkedin.com/in/vijay-radhakrishnan-0784931aa/)
+- **Telegram:** [@itsvj1](https://t.me/itsvj1)
+- **Trailblazer:** [vcr50](https://trailblazer.me/id/vcr50)
+
+---
+*This repository contains the source code for my personal portfolio website, built with Tailwind CSS and a modern glassmorphism dark-theme design.*

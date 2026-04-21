@@ -1,0 +1,9 @@
+My-Portfolio--main/
+├── index.html
+├── README.md
+├── sfcer.png
+└── assets/
+    ├── css/style.css
+    ├── js/tailwind-config.js
+    ├── js/main.js
+    └── images/

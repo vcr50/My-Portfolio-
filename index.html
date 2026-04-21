@@ -10,170 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        darkBg: '#070B14',
-                        cardBg: 'rgba(255,255,255,0.06)',
-                        cardBorder: 'rgba(255,255,255,0.12)',
-                        primary: '#4F8CFF',
-                        secondary: '#8B5CF6',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                    },
-                    animation: {
-                        'float': 'float 6s ease-in-out infinite',
-                        'float-delayed': 'float 6s ease-in-out 3s infinite',
-                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                    },
-                    keyframes: {
-                        float: {
-                            '0%, 100%': { transform: 'translateY(0)' },
-                            '50%': { transform: 'translateY(-20px)' },
-                        }
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        body {
-            background-color: #070B14;
-            color: #ffffff;
-            font-family: 'Inter', sans-serif;
-            overflow-x: hidden;
-        }
-        
-        .glass-card {
-            background: rgba(255, 255, 255, 0.04);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 24px;
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        
-        .glass-card:hover {
-            transform: translateY(-8px);
-            background: rgba(255, 255, 255, 0.08);
-            border-color: rgba(255, 255, 255, 0.16);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 40px rgba(79, 140, 255, 0.1);
-        }
-
-        .gradient-text {
-            background: linear-gradient(135deg, #4F8CFF 0%, #8B5CF6 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .floating-badge {
-            background: rgba(255, 255, 255, 0.06);
-            backdrop-filter: blur(8px);
-            border: 1px solid rgba(255, 255, 255, 0.12);
-            padding: 10px 20px;
-            border-radius: 9999px;
-            font-size: 0.875rem;
-            font-weight: 500;
-            color: #E2E8F0;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-            transition: all 0.3s ease;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-        }
-        
-        .floating-badge:hover {
-            background: rgba(255, 255, 255, 0.1);
-            border-color: #4F8CFF;
-            transform: translateY(-2px) scale(1.05);
-        }
-
-        .progress-bar-custom {
-            height: 6px;
-            border-radius: 9999px;
-            background: linear-gradient(90deg, #4F8CFF 0%, #8B5CF6 100%);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .progress-bar-custom::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
-            animation: shimmer 2s infinite;
-        }
-        
-        @keyframes shimmer {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(100%); }
-        }
-
-        .bg-glow {
-            position: absolute;
-            width: 800px;
-            height: 800px;
-            background: radial-gradient(circle, rgba(79,140,255,0.12) 0%, rgba(7,11,20,0) 60%);
-            border-radius: 50%;
-            z-index: -1;
-            top: -200px;
-            left: -300px;
-            pointer-events: none;
-        }
-        
-        .bg-glow-right {
-            position: absolute;
-            width: 600px;
-            height: 600px;
-            background: radial-gradient(circle, rgba(139,92,246,0.12) 0%, rgba(7,11,20,0) 60%);
-            border-radius: 50%;
-            z-index: -1;
-            bottom: -100px;
-            right: -200px;
-            pointer-events: none;
-        }
-
-        .input-glass {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            color: white;
-            border-radius: 12px;
-            padding: 12px 16px;
-            width: 100%;
-            transition: all 0.3s ease;
-        }
-        
-        .input-glass:focus {
-            outline: none;
-            border-color: #4F8CFF;
-            background: rgba(255, 255, 255, 0.06);
-            box-shadow: 0 0 0 2px rgba(79, 140, 255, 0.2);
-        }
-        
-        .btn-gradient {
-            background: linear-gradient(135deg, #4F8CFF 0%, #8B5CF6 100%);
-            color: white;
-            font-weight: 600;
-            padding: 12px 28px;
-            border-radius: 12px;
-            border: none;
-            transition: all 0.3s ease;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-        }
-        
-        .btn-gradient:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(79, 140, 255, 0.4);
-        }
-    </style>
+    <script src="assets/js/tailwind-config.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
 </head>
 <body class="antialiased relative" id="home">
     <div class="bg-glow"></div>
@@ -189,8 +28,8 @@
                     <div class="ml-10 flex items-baseline space-x-6">
                         <a href="#home" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
                         <a href="#about" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">About</a>
-                        <a href="#ai-skills" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">AI & Skills</a>
-                        <a href="#services" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Services</a>
+                        <a href="#skills" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Skills</a>
+                        <a href="#certifications" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Certifications</a>
                         <a href="#projects" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Projects</a>
                         <a href="#contact" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
                     </div>
@@ -205,7 +44,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center max-w-4xl mx-auto">
                 <div class="mb-6 relative inline-block animate-float">
-                    <img src="images/vj1.png" alt="Vijay Radhakrishnan" class="w-32 h-32 rounded-full border-2 border-primary/50 shadow-2xl mx-auto object-cover" onerror="this.src='https://ui-avatars.com/api/?name=Vijay+R&background=070B14&color=4F8CFF&size=128'">
+                    <img src="assets/images/vj1.png" alt="Vijay Radhakrishnan" class="w-32 h-32 rounded-full border-2 border-primary/50 shadow-2xl mx-auto object-cover" onerror="this.src='https://ui-avatars.com/api/?name=Vijay+R&background=070B14&color=4F8CFF&size=128'">
                     <div class="absolute -bottom-2 -right-2 bg-green-500 w-6 h-6 rounded-full border-4 border-darkBg"></div>
                 </div>
                 
@@ -214,7 +53,7 @@
                 </h1>
                 
                 <p class="text-xl md:text-2xl text-gray-400 mb-10 font-light">
-                    Salesforce Developer <span class="text-primary mx-2">•</span> AI Builder <span class="text-secondary mx-2">•</span> Prompt Engineer
+                    Salesforce Developer <span class="text-primary mx-2">•</span> Apex & LWC <span class="text-secondary mx-2">•</span> AI-Focused CRM Developer
                 </p>
                 
                 <!-- Floating Badges Container -->
@@ -246,83 +85,112 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- About Section -->
+    </sectio    <!-- About Section -->
     <section id="about" class="py-20 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">Welcome To My <span class="gradient-text">World</span></h2>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">About <span class="gradient-text">Me</span></h2>
                 <div class="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
             </div>
             
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div class="glass-card p-8 relative overflow-hidden group">
-                    <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                    <img src="images/c1.png" alt="About Vijay" class="w-full rounded-xl shadow-lg relative z-10" onerror="this.style.display='none'">
-                    <!-- Fallback if image fails -->
-                    <div class="bg-gray-800/50 rounded-xl h-64 flex items-center justify-center relative z-10" style="display: none;" id="about-img-fallback">
-                        <i class="fa-solid fa-user-astronaut text-6xl text-gray-600"></i>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+                <!-- Left: Photo + Personal Statement + Soft Skills -->
+                <div class="space-y-8">
+                    <div class="glass-card p-8 relative overflow-hidden group">
+                        <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        <img src="assets/images/c1.png" alt="About Vijay" class="w-full rounded-xl shadow-lg relative z-10" onerror="this.style.display='none'">
+                        <div class="bg-gray-800/50 rounded-xl h-64 flex items-center justify-center relative z-10" style="display: none;" id="about-img-fallback">
+                            <i class="fa-solid fa-user-astronaut text-6xl text-gray-600"></i>
+                        </div>
                     </div>
-                    <script>
-                        document.querySelector('img[src="images/c1.png"]').onerror = function() {
-                            this.style.display = 'none';
-                            document.getElementById('about-img-fallback').style.display = 'flex';
-                        }
-                    </script>
+                    <div class="glass-card p-6 text-center">
+                        <i class="fa-solid fa-quote-left text-primary/40 text-2xl mb-3"></i>
+                        <p class="text-gray-300 italic text-lg leading-relaxed">"I am building a career with discipline, consistency, and a long-term vision."</p>
+                    </div>
+                    <!-- Soft Skills -->
+                    <div class="glass-card p-6">
+                        <h4 class="text-lg font-semibold mb-4"><i class="fa-solid fa-heart text-secondary mr-2"></i>Soft Skills</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs py-1.5 px-3 rounded-full bg-white/5 border border-white/10">Problem Solving</span>
+                            <span class="text-xs py-1.5 px-3 rounded-full bg-white/5 border border-white/10">Communication</span>
+                            <span class="text-xs py-1.5 px-3 rounded-full bg-white/5 border border-white/10">Adaptability</span>
+                            <span class="text-xs py-1.5 px-3 rounded-full bg-white/5 border border-white/10">Time Management</span>
+                            <span class="text-xs py-1.5 px-3 rounded-full bg-white/5 border border-white/10">Self Discipline</span>
+                        </div>
+                    </div>
+                    <!-- Hobbies -->
+                    <div class="glass-card p-6">
+                        <h4 class="text-lg font-semibold mb-4"><i class="fa-solid fa-star text-primary mr-2"></i>Hobbies & Interests</h4>
+                        <ul class="space-y-2 text-gray-400 text-sm">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-microchip text-primary text-xs"></i> Learning new technologies (Salesforce, AI, Full Stack)</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-pen text-secondary text-xs"></i> Writing on Substack (technical insights & ideas)</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-music text-primary text-xs"></i> Listening to music during deep work sessions</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-bullseye text-secondary text-xs"></i> Practicing discipline and self-improvement</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-lightbulb text-primary text-xs"></i> Exploring innovative ideas and building future products</li>
+                        </ul>
+                    </div>
                 </div>
                 
-                <div>
-                    <h3 class="text-2xl font-semibold mb-6">About Me</h3>
-                    <p class="text-gray-400 mb-8 leading-relaxed text-lg">
-                        I’m <span class="text-white font-medium">Vijay Radhakrishnan</span>, a budding Salesforce enthusiast with hands-on experience. My journey began with curiosity and a profound desire to create meaningful, efficient, and intelligent solutions using the Salesforce platform and modern AI capabilities.
-                    </p>
+                <!-- Right: Professional Summary + Journey -->
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4">Professional Summary</h3>
+                        <p class="text-gray-400 leading-relaxed text-lg mb-4">
+                            A disciplined and focused <span class="text-white font-medium">Salesforce Developer</span> with a strong foundation in Apex, Lightning Web Components (LWC), and automation. Skilled in building scalable CRM solutions and continuously enhancing technical expertise.
+                        </p>
+                        <p class="text-gray-400 leading-relaxed text-lg">
+                            Possesses hands-on experience in full-stack and AI-driven development through <span class="text-primary font-medium">Agentforce</span>, with a strong interest in building intelligent and future-ready applications within the Salesforce ecosystem.
+                        </p>
+                    </div>
                     
-                    <h4 class="text-xl font-semibold mb-6">Core Skills</h4>
-                    <div class="space-y-6">
-                        <div>
-                            <div class="flex justify-between mb-2">
-                                <span class="text-sm font-medium">Lightning Flows</span>
-                                <span class="text-sm text-gray-400">90%</span>
-                            </div>
-                            <div class="w-full bg-gray-800 rounded-full h-1.5">
-                                <div class="progress-bar-custom w-[90%]"></div>
-                            </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4">My Journey</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">
+                            I completed my B.Tech in Information Technology and chose to specialize in Salesforce development with a clear long-term vision.
+                        </p>
+                        <p class="text-gray-400 leading-relaxed mb-4">
+                            Through consistent effort, structured learning, and disciplined practice, I developed strong knowledge in Apex, LWC, Flows, and core Salesforce concepts.
+                        </p>
+                        <p class="text-gray-400 leading-relaxed">
+                            My approach focuses on mastering fundamentals, applying concepts practically, and continuously evolving towards advanced topics such as integrations and AI-based solutions. I aim to grow into a <span class="text-secondary font-medium">Salesforce Architect</span> and build impactful systems.
+                        </p>
+                    </div>
+
+                    <!-- Current Focus -->
+                    <div class="glass-card p-6">
+                        <h4 class="text-lg font-semibold mb-4"><i class="fa-solid fa-crosshairs text-primary mr-2"></i>Current Focus</h4>
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="flex items-center gap-2 text-gray-400 text-sm"><i class="fa-solid fa-chevron-right text-primary text-xs"></i> Advanced Apex</div>
+                            <div class="flex items-center gap-2 text-gray-400 text-sm"><i class="fa-solid fa-chevron-right text-secondary text-xs"></i> LWC Real-world</div>
+                            <div class="flex items-center gap-2 text-gray-400 text-sm"><i class="fa-solid fa-chevron-right text-primary text-xs"></i> API Integrations</div>
+                            <div class="flex items-center gap-2 text-gray-400 text-sm"><i class="fa-solid fa-chevron-right text-secondary text-xs"></i> AI + Salesforce</div>
+                            <div class="flex items-center gap-2 text-gray-400 text-sm"><i class="fa-solid fa-chevron-right text-primary text-xs"></i> Full-Stack Dev</div>
                         </div>
-                        <div>
-                            <div class="flex justify-between mb-2">
-                                <span class="text-sm font-medium">APEX</span>
-                                <span class="text-sm text-gray-400">80%</span>
+                    </div>
+                    
+                    <!-- Core Skills Progress -->
+                    <div>
+                        <h4 class="text-xl font-semibold mb-6">Core Skills</h4>
+                        <div class="space-y-5">
+                            <div>
+                                <div class="flex justify-between mb-2"><span class="text-sm font-medium">Lightning Flows</span><span class="text-sm text-gray-400">90%</span></div>
+                                <div class="w-full bg-gray-800 rounded-full h-1.5"><div class="progress-bar-custom w-[90%]"></div></div>
                             </div>
-                            <div class="w-full bg-gray-800 rounded-full h-1.5">
-                                <div class="progress-bar-custom w-[80%]"></div>
+                            <div>
+                                <div class="flex justify-between mb-2"><span class="text-sm font-medium">Apex Programming</span><span class="text-sm text-gray-400">80%</span></div>
+                                <div class="w-full bg-gray-800 rounded-full h-1.5"><div class="progress-bar-custom w-[80%]"></div></div>
                             </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-2">
-                                <span class="text-sm font-medium">JavaScript</span>
-                                <span class="text-sm text-gray-400">70%</span>
+                            <div>
+                                <div class="flex justify-between mb-2"><span class="text-sm font-medium">Lightning Web Components</span><span class="text-sm text-gray-400">70%</span></div>
+                                <div class="w-full bg-gray-800 rounded-full h-1.5"><div class="progress-bar-custom w-[70%]"></div></div>
                             </div>
-                            <div class="w-full bg-gray-800 rounded-full h-1.5">
-                                <div class="progress-bar-custom w-[70%]"></div>
+                            <div>
+                                <div class="flex justify-between mb-2"><span class="text-sm font-medium">SOQL / SOSL / Triggers</span><span class="text-sm text-gray-400">65%</span></div>
+                                <div class="w-full bg-gray-800 rounded-full h-1.5"><div class="progress-bar-custom w-[65%]"></div></div>
                             </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-2">
-                                <span class="text-sm font-medium">Triggers & SOQL/SOSL</span>
-                                <span class="text-sm text-gray-400">65%</span>
-                            </div>
-                            <div class="w-full bg-gray-800 rounded-full h-1.5">
-                                <div class="progress-bar-custom w-[65%]"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-2">
-                                <span class="text-sm font-medium">Salesforce LWC</span>
-                                <span class="text-sm text-gray-400">55%</span>
-                            </div>
-                            <div class="w-full bg-gray-800 rounded-full h-1.5">
-                                <div class="progress-bar-custom w-[55%]"></div>
+                            <div>
+                                <div class="flex justify-between mb-2"><span class="text-sm font-medium">REST API & Integrations</span><span class="text-sm text-gray-400">50%</span></div>
+                                <div class="w-full bg-gray-800 rounded-full h-1.5"><div class="progress-bar-custom w-[50%]"></div></div>
                             </div>
                         </div>
                     </div>
@@ -331,147 +199,133 @@
         </div>
     </section>
 
-    <!-- NEW SECTION: AI & Modern Skills -->
-    <section id="ai-skills" class="py-20 relative">
+    <!-- Technical Skills Section -->
+    <section id="skills" class="py-20 relative">
         <div class="bg-glow-right"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">AI & <span class="gradient-text">Modern Skills</span></h2>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Technical <span class="gradient-text">Skills</span></h2>
                 <div class="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
-                <p class="mt-4 text-gray-400 max-w-2xl mx-auto">Leveraging cutting-edge artificial intelligence and modern development tools to build smarter, faster solutions.</p>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Generative AI -->
-                <div class="glass-card p-6">
-                    <div class="w-12 h-12 rounded-lg bg-primary/20 flex items-center justify-center mb-6 text-primary text-2xl">
-                        <i class="fa-solid fa-brain"></i>
-                    </div>
-                    <h3 class="text-xl font-semibold mb-4 text-white">Generative AI</h3>
-                    <ul class="space-y-3 text-gray-400">
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> ChatGPT</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Gemini</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Claude</li>
-                    </ul>
-                </div>
-
-                <!-- Prompt Engineering -->
-                <div class="glass-card p-6">
-                    <div class="w-12 h-12 rounded-lg bg-secondary/20 flex items-center justify-center mb-6 text-secondary text-2xl">
-                        <i class="fa-solid fa-pen-nib"></i>
-                    </div>
-                    <h3 class="text-xl font-semibold mb-4 text-white">Prompt Engineering</h3>
-                    <ul class="space-y-3 text-gray-400">
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> Salesforce Prompt Builder</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> Prompt Design</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> AI Workflows</li>
-                    </ul>
-                </div>
-
-                <!-- Salesforce AI -->
+                <!-- Salesforce Development -->
                 <div class="glass-card p-6">
                     <div class="w-12 h-12 rounded-lg bg-primary/20 flex items-center justify-center mb-6 text-primary text-2xl">
                         <i class="fa-brands fa-salesforce"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4 text-white">Salesforce AI</h3>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Salesforce Development</h3>
                     <ul class="space-y-3 text-gray-400">
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Einstein AI</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Agentforce</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> AI Associate</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Apex Programming</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Lightning Web Components (LWC)</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Flows & Process Automation</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> SOQL & SOSL</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Data Modeling</li>
                     </ul>
                 </div>
 
-                <!-- AI Automation -->
+                <!-- Salesforce Platform -->
                 <div class="glass-card p-6">
                     <div class="w-12 h-12 rounded-lg bg-secondary/20 flex items-center justify-center mb-6 text-secondary text-2xl">
-                        <i class="fa-solid fa-bolt"></i>
+                        <i class="fa-solid fa-shield-halved"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4 text-white">AI Automation</h3>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Salesforce Platform</h3>
                     <ul class="space-y-3 text-gray-400">
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> Flows</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> API Integration</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> Automation</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> Security & Sharing</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> Profiles, Roles, Permission Sets</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> Reports & Dashboards</li>
                     </ul>
                 </div>
 
-                <!-- AI UI/UX Design -->
+                <!-- Integration -->
                 <div class="glass-card p-6">
                     <div class="w-12 h-12 rounded-lg bg-primary/20 flex items-center justify-center mb-6 text-primary text-2xl">
-                        <i class="fa-solid fa-layer-group"></i>
+                        <i class="fa-solid fa-plug"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4 text-white">AI UI/UX Design</h3>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Integration</h3>
                     <ul class="space-y-3 text-gray-400">
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Figma</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Tailwind CSS</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Wireframes</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> REST API Basics</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> External Integrations</li>
                     </ul>
                 </div>
 
-                <!-- Future Learning -->
+                <!-- Web Technologies -->
                 <div class="glass-card p-6">
                     <div class="w-12 h-12 rounded-lg bg-secondary/20 flex items-center justify-center mb-6 text-secondary text-2xl">
-                        <i class="fa-solid fa-rocket"></i>
+                        <i class="fa-solid fa-code"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4 text-white">Future Learning</h3>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Web Technologies</h3>
                     <ul class="space-y-3 text-gray-400">
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> AI Agents</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> RAG</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> LangChain</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> HTML, CSS, JavaScript</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> React (Beginner)</li>
+                    </ul>
+                </div>
+
+                <!-- Tools -->
+                <div class="glass-card p-6">
+                    <div class="w-12 h-12 rounded-lg bg-primary/20 flex items-center justify-center mb-6 text-primary text-2xl">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Tools</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Git & GitHub</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> VS Code</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-primary text-sm"></i> Salesforce CLI</li>
+                    </ul>
+                </div>
+
+                <!-- AI & Generative -->
+                <div class="glass-card p-6">
+                    <div class="w-12 h-12 rounded-lg bg-secondary/20 flex items-center justify-center mb-6 text-secondary text-2xl">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-white">AI & Generative</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> Agentforce</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> Prompt Engineering</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-secondary text-sm"></i> ChatGPT / Gemini / Claude</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="py-20 relative">
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">My <span class="gradient-text">Services</span></h2>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Certifications & <span class="gradient-text">Experience</span></h2>
                 <div class="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
             </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Service 1 -->
-                <div class="glass-card p-8 text-center group">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                        <i class="fa-solid fa-wand-magic-sparkles text-2xl text-primary"></i>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="glass-card p-6 text-center group">
+                    <div class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fa-solid fa-user-shield text-xl text-primary"></i>
                     </div>
-                    <h4 class="text-xl font-semibold mb-4">Custom Solutions</h4>
-                    <p class="text-gray-400 mb-6">Designing and developing custom applications tailored to business needs.</p>
-                    <div class="text-sm text-gray-500 space-y-2">
-                        <p>• Custom Applications</p>
-                        <p>• Apex and JavaScript</p>
-                        <p>• Lightning Components</p>
-                    </div>
+                    <h4 class="font-semibold mb-2">Salesforce Administrator</h4>
+                    <span class="text-xs py-1 px-3 rounded-full bg-yellow-500/10 text-yellow-400 border border-yellow-500/20">In Progress</span>
                 </div>
-
-                <!-- Service 2 -->
-                <div class="glass-card p-8 text-center group">
-                    <div class="w-16 h-16 rounded-full bg-secondary/10 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                        <i class="fa-solid fa-users text-2xl text-secondary"></i>
+                <div class="glass-card p-6 text-center group">
+                    <div class="w-14 h-14 rounded-full bg-secondary/10 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fa-solid fa-laptop-code text-xl text-secondary"></i>
                     </div>
-                    <h4 class="text-xl font-semibold mb-4">Stakeholder Collaboration</h4>
-                    <p class="text-gray-400 mb-6">Working closely with teams to translate requirements into scalable solutions.</p>
-                    <div class="text-sm text-gray-500 space-y-2">
-                        <p>• Business Analysts</p>
-                        <p>• Project Management</p>
-                        <p>• Data Modeling</p>
-                    </div>
+                    <h4 class="font-semibold mb-2">Platform Developer I</h4>
+                    <span class="text-xs py-1 px-3 rounded-full bg-yellow-500/10 text-yellow-400 border border-yellow-500/20">In Progress</span>
                 </div>
-
-                <!-- Service 3 -->
-                <div class="glass-card p-8 text-center group">
-                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                        <i class="fa-solid fa-code text-2xl text-primary"></i>
+                <div class="glass-card p-6 text-center group">
+                    <div class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fa-solid fa-robot text-xl text-primary"></i>
                     </div>
-                    <h4 class="text-xl font-semibold mb-4">Maintenance & Docs</h4>
-                    <p class="text-gray-400 mb-6">Ensuring long-term success through thorough documentation and system integrations.</p>
-                    <div class="text-sm text-gray-500 space-y-2">
-                        <p>• Documentation</p>
-                        <p>• Code Maintenance</p>
-                        <p>• System Integrations</p>
+                    <h4 class="font-semibold mb-2">Salesforce AI Associate</h4>
+                    <span class="text-xs py-1 px-3 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/20">Preparing</span>
+                </div>
+                <div class="glass-card p-6 text-center group">
+                    <div class="w-14 h-14 rounded-full bg-secondary/10 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fa-solid fa-cloud text-xl text-secondary"></i>
                     </div>
+                    <h4 class="font-semibold mb-2">Agentforce</h4>
+                    <span class="text-xs py-1 px-3 rounded-full bg-green-500/10 text-green-400 border border-green-500/20">Hands-on Experience</span>
                 </div>
             </div>
         </div>
@@ -632,9 +486,8 @@
     <!-- Footer -->
     <footer class="border-t border-white/10 py-8 text-center bg-black/20">
         <div class="max-w-7xl mx-auto px-4">
-            <p class="text-gray-500 text-sm">
-Vijay Radhakrishnan. <br>
-                <span class="text-gray-600 mt-2 inline-block">Designed with TOMCODEX PVT. LTD. @ 2026 TOMCODEX PVT. LTD. ALL RIGHTS RESERVED.</span>
+            <p class="text-gray-500 text-xs font-semibold tracking-widest uppercase">
+                TOMCODEX PVT. LTD. &copy; 2026 TOMCODEX PVT. LTD. ALL RIGHTS RESERVED.
             </p>
         </div>
     </footer>
